@@ -7524,7 +7524,7 @@ local script = G2L["8e"];
 	-- icon setup
 	local icon = Instance.new("ImageLabel", main);
 	icon.BackgroundTransparency = 1;
-	icon.Image = "rbxassetid://10352444178";
+	icon.Image = "rbxassetid://12100891066";
 	icon.Size = UDim2.new(0, 80, 0, 80);
 	icon.AnchorPoint = Vector2.new(0.5, 0.5);
 	icon.Position = UDim2.new(0.5, 0, 0.5, 0);
