@@ -29,9 +29,9 @@ NotificationBindable.OnInvoke = launchDiscord
 game:GetService("StarterGui"):SetCore(
 	"SendNotification",
 	{
-		Title = "NP Hub",
-		Duration = 5,
-		Text = "Loading lastest version!\n\nJoin our Discord for games, scripts and more",
+		Title = "Korea NP Hub",
+		Duration = 8,
+		Text = "NP Hub를 로딩하는 중입니다.\n\n디스코드 커뮤니티에 참가해주세요.",
 		Button1 = "Join Discord!",
 		Callback = NotificationBindable
 	}
