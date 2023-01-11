@@ -13,7 +13,7 @@ local G2L = {};
 -- StarterGui.backdoor.exe v8
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["ResetOnSpawn"] = false;
-G2L["1"]["Name"] = [[NP Hub v1]];
+G2L["1"]["Name"] = [[NP Hub v8]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
 -- StarterGui.backdoor.exe v8.Main
