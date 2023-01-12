@@ -451,5 +451,5 @@ end);
 -- set title
 ui.title.Text = TITLE;
 
-alertLib.Success(screenGui, TITLE, 'NP Hub scanner successfully loaded.');
-alertLib.Info(screenGui, TITLE, 'Home to toggle ui.', 4);
+alertLib.Success(screenGui, TITLE, 'NP Hub를 성공적으로 로드하였습니다.');
+alertLib.Info(screenGui, TITLE, '안녕하세요. NP Hub를 이용해주셔서 감사합니다.', 4);
