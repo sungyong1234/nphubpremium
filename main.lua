@@ -452,4 +452,4 @@ end);
 ui.title.Text = TITLE;
 
 alertLib.Success(screenGui, TITLE, 'NP Hub 를 성공적으로 로드하였습니다.');
-alertLib.Info(screenGui, TITLE, '안녕하세요. NP Hub Bassic 으로 로드되었습니다.', 4);
+alertLib.Info(screenGui, TITLE, '안녕하세요. NP Hub Premium 으로 로드되었습니다.', 4);
